@@ -13,6 +13,7 @@ import Gallery from './pages/gallery';
 import Events from './pages/events';
 import IntMeet22 from './pages/events/intmeet22';
 import VMeet22 from './pages/events/vmeet22';
+import Wonders from './pages/wonders';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: '/events/vmeet22',
     element: <VMeet22 />
+  },
+  {
+    path: '/wonders',
+    element: <Wonders />
   }
 ]);
 
